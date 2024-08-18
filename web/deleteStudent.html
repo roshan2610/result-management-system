@@ -1,0 +1,58 @@
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Delete Student</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="help.css">
+
+        <style>
+            .buttons1{
+                margin-top: 34px;
+            }
+
+            .btn1{
+                padding: 9px 14px;
+                border-radius: 22px;
+                color: white;
+                background-color: red;
+                font-weight: bold;
+                font-size: 21px;
+                margin: 0 3px;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body style="background-image: url('image/1.jpg');
+          background-repeat: no-repeat;
+          background-size: cover;">
+        <div class="buttons1">
+            <a href="home.jsp">
+                <button class="btn1">Home</button></a>
+        </div>
+        <div align="center">
+            <fieldset style="width:450px;height:auto;border:5px solid red  ; margin:auto;
+                      background-color:lightskyblue; font-size: 35px;">
+                <div align="center">
+                    <h2>Delete Student Data</h2>
+                    <form action="deleteStudent.jsp" class="box">
+                        <h3> Roll No:</h3><input type="number" name="id" style="width: 200px;height: 50px;border: 1px solid blue;"/><br><br>
+                        <input type="submit" name="Submit" value="Delete" style="padding: 9px 14px;
+                
+                color: white;
+                background-color: green;
+                font-weight: bold;
+                font-size: 21px;
+                margin: 0 3px;
+                cursor: pointer;"/>
+
+
+                </div>
+            </fieldset>
+    </body>
+</html>

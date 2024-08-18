@@ -1,0 +1,112 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10 Jan, 2022, 11:55:37 PM
+    Author     : ROSHA
+*/
+body{
+    background-image: url('image/un.jpg');
+    height:200%;
+    width: 150%;
+    /*               object-fit: cover;*/
+    /*                background-position: center;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body{
+
+    background-repeat:no-repead;
+    background-size:cover;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+ul {
+    background-color: lightcyan;
+    padding-bottom: 23;
+}
+li,h1 {
+    display: inline;
+}
+
+
+li {
+/*    float: left;*/
+}
+
+a {
+    display: block;
+    padding: auto;
+    /* background-color: lightcyan; */
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 2px 37px;
+    font-size: xx-large;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/*.infoContainer{
+     background-color:purple ; 
+
+    margin:  auto;
+    display: flex;
+    justify-content: space-around;
+}*/
+
+.buttons{
+    margin-top: 34px;
+}
+
+.btn{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: red;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.btn11{
+    padding: 22px 18px;
+    border-radius: 15px;
+    color: white;
+    background-color: red;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0 3px;
+    cursor: pointer;
+     transition: transform .2s;
+}
+
+.buttons11{
+    margin-top: 40px;
+}
+.btn0 {
+  background-color: red;
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition: 0.3s;
+}
+
+.btn0:hover {
+  background-color: green;
+  color: white;
+}
